@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kavoon', sans-serif;
+}
+
+button{
+    margin-bottom: 0;
+    background-color: #F1AE2D;
+    animation: up 1.5s  ease-in-out;
+}
+
+#heading img{
+    transform: translateY(-130px);
+    width: 40vw;
+}
+#heading div{
+    font-size: 4vw;
+
+}
+
+.t5{
+    color: #B66200;
+    top: 45px;
+    right: 205px;
+    
+}
+.b5{
+    color:#06D70E;
+    bottom: 10vw;
+    left: 205px;
+    
+}
+
+ol{
+    text-align: left;
+    margin: 5vh 3vw 0;
+    line-height: 2vw;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.instructions-div{
+    width: 50vw;
+    background-color: #EDD2A4;
+    border: 10px solid #98430C;
+    padding: 2vw;
+    font-family: 'Jost', sans-serif;
+    margin: -100px 0 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.instructions-div h1{
+    text-decoration: underline;
+}
+
+@media all and (max-width:850px){
+    .instructions-div{
+        width: 80vw;
+        height: 90vw;
+        margin-top: 0;
+        padding-left: 5vw;
+    }
+    ol{
+        font-size: 4vw;
+        line-height: 5vw;
+        margin-top: 3vh;
+    }
+    button{
+        font-size: 7vw;
+    }
+    #heading{
+        margin-bottom: -5vw;
+    }
+    .instructions-div h1{
+        font-size: 7vw;
+    }
+    #heading img{
+        transform: translateY(0);
+    }
+    .t5{
+        position: relative;
+        top: -20vw;
+        right: 1vw;
+    }
+    .b5{
+        position: relative;
+        bottom: 23vw;
+        left: 1vw;
+    }
+    #heading img{
+        width: 85vw;
+    }
+    #heading div{
+        font-size: 8vw;
+    
+    }
+}
