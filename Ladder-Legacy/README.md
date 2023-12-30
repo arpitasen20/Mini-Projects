@@ -1,5 +1,5 @@
 # Ladder-Legacy
-
+🎲📌 You can access the game here 👉🏻 https://snake-and-ladder-dun.vercel.app/
 # Game Idea : 
 The Idea is to build the a Multiplayer Classical Board game named Ladder Legacy where player has to roll the dice and move up the board without getting bitten by a snake. 
 
