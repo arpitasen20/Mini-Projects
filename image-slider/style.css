@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(22, 21, 21);
+    position: relative;
+    color: white;
+}
+
+#box{
+    height: 70vh;
+    width: 75vw;
+    border: solid white 5px;
+    margin-left: 11%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#slide{
+    width: calc(75vw*2);
+}
+
+img{
+    height: 70vh;
+    width: 75vw;
+    float: left;
+
+}
+
+#left{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#right{
+     position: absolute;
+     top: 35%;
+     right: 5%;
+     opacity: 0.5;
+     cursor: pointer;
+}
+
+#left:hover{
+    opacity: 1;
+}
+
+#right:hover{
+    opacity: 1;
+}
+
+#circle{
+    margin-top: 2%;
+    margin-left: 46%;
+}
+
+button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.6;
+    border: solid white 2px;
+}
+
+@keyframes move {
+    0%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: -100%;
+    }
+}
+
+@keyframes move_left {
+    0%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-right: 100%;
+    }
+}
